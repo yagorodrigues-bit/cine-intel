@@ -9,7 +9,7 @@ Este projeto foi desenvolvido como parte do **processo seletivo para estágio** 
 
 ## 🖼️ Preview do Projeto
 
-![Preview do CineIntel](docs/cineintel-preview.png)
+![Preview do CineIntel](public/preview.png)
 
 ---
 
