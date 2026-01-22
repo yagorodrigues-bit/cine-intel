@@ -4,7 +4,15 @@ O **CineIntel** é uma aplicação web desenvolvida com **Next.js**, voltada par
 
 Este projeto foi desenvolvido como parte do **processo seletivo para estágio** na **Divisão de Inteligência Cibernética (DIC)** da **Polícia Civil do Estado do Pará**, na modalidade **Front-end**.
 
+
 ---
+
+## 🖼️ Preview do Projeto
+
+![Preview do CineIntel](docs/cineintel-preview.png)
+
+---
+
 
 ## 🚀 Funcionalidades e Requisitos Implementados
 
