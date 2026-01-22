@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+CineIntel – Catálogo de Filmes
+Este projeto é uma interface web desenvolvida em Next.js para consulta de filmes, consumindo a API pública do TMDB. O desenvolvimento faz parte do processo seletivo para estágio na Divisão de Inteligência Cibernética (DIC) da Polícia Civil do Estado do Pará.
 
-## Getting Started
+🚀 Requisitos Implementados
+Conforme solicitado no edital para a modalidade Front-end:
 
-First, run the development server:
+Next.js: Framework principal utilizado para a construção da interface.
 
-```bash
+Consumo de API: Integração completa com a API do TMDB para listagem, busca e detalhes.
+
+Layout Responsivo: Interface adaptável para diferentes tamanhos de tela utilizando o sistema de Grid do Material UI.
+
+Material UI (MUI): Uso extensivo de componentes como Cards, Grids, Paginação, Buttons e Feedback visual (Loaders e Snakbars).
+
+Componentes Reutilizáveis: Criação de componentes como MovieCard e ThemeRegistry para otimização do código.
+
+Feedback Visual: Implementação de estados de carregamento e tratamento de erros com alertas ao usuário.
+
+🛠️ Tecnologias Utilizadas
+Next.js 15+ (App Router).
+
+Material UI (MUI) para estilização e componentes.
+
+Axios para requisições HTTP.
+
+TypeScript para garantir a tipagem e segurança do código.
+
+📦 Como Executar o Projeto
+Clonar o repositório:
+
+Bash
+git clone https://github.com/seu-usuario/cine-intel.git
+cd cine-intel
+Configurar variáveis de ambiente: Crie um arquivo .env.local na raiz do projeto e adicione suas chaves do TMDB:
+
+Snippet de código
+NEXT_PUBLIC_TMDB_API_KEY=sua_chave_aqui
+NEXT_PUBLIC_TMDB_BASE_URL=https://api.themoviedb.org/3
+NEXT_PUBLIC_TMDB_IMAGE_URL=https://image.tmdb.org/t/p/w500
+Instalar dependências:
+
+Bash
+npm install
+Iniciar o servidor de desenvolvimento:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Estrutura de Pastas
+src/app: Gerenciamento de rotas e páginas (Home e Detalhes).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+src/components: Componentes reutilizáveis da interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+src/services: Configuração da API e funções de busca de dados.
 
-## Learn More
+Desenvolvido por: [Seu Nome]
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Prazo de entrega: 24/01/2026
